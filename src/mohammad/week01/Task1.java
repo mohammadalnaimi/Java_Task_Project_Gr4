@@ -8,7 +8,7 @@ public class Task1 {
 
     public static void main(String[] args) {
 
-        System.out.println("evenOrOdd(5) = " + evenOrOdd(6));
+        System.out.println("evenOrOdd() = " + evenOrOdd(6));
 
     }
     public static String evenOrOdd (int num){
