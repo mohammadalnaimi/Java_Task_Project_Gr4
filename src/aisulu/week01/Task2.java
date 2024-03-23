@@ -10,7 +10,12 @@ public class Task2 {
     }
 
     public static void divide (double num1, double num2){
-        System.out.println(num1 / num2);
+       double result = 0;
+        while(num1>=num2){
+            num1-=num2;
+            result++;
+        }
+        System.out.println(result);
     }
 }
 /*
