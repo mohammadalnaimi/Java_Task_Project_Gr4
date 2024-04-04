@@ -13,23 +13,3 @@ public class Conflict {
 
     }
 }
-
-
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-        System.out.println("Never check out master guys");
-    }
-
-    }
-
-
