@@ -7,8 +7,8 @@ package mohammad.week01;
 
 public class Task2 {
     public static void main(String[] args) {
-        int a = 10;
-        int b = -2;
+        int a = -10;
+        int b = 2;
 
         divide(a,b);
     }
@@ -23,9 +23,8 @@ public class Task2 {
         } else if (a > b) {
             System.out.println(basicDivision(a, b));
         } else if (a < 0 && b < 0) {
-            a = a * -1;
-            b = b * -1;
-            System.out.println(basicDivision(a, b)*-1);
+
+            System.out.println(basicDivision(a, b));
 
         } else if (a < 0 && b > 0) {
             a *= -1;
