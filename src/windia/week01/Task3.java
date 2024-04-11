@@ -1,4 +1,4 @@
-package mohammad.week01;
+package windia.week01;
 
 /*
    QUESTION 3- Write a function which prints out the numbers from 1 to 30 but
@@ -9,15 +9,18 @@ package mohammad.week01;
 
 public class Task3 {
     public static void main(String[] args) {
-        for (int x = 1 ; x <= 30 ; x++){
-            if (x % 3 == 0 && x % 5 == 0){
-                System.out.print("FINRA\t");
-            } else if (x % 3 == 0) {
-                System.out.print("FIN\t");
-            } else if (x % 5 == 0) {
-                System.out.print("RA\t");
+
+        int num = 30;
+
+        for (int i = 1; i <= num ; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.print("FINRA ");
+            } else if (i % 3 == 0) {
+                System.out.print("FIN ");
+            } else if (i % 5 == 0) {
+                System.out.print("RA ");
             }else {
-                System.out.print(x+"\t");
+                System.out.print(i + " ");
             }
         }
     }
