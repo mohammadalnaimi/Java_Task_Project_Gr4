@@ -2,6 +2,9 @@ package aisulu.week01;
 
 public class Task3 {
 
+}
+
+
     public static void main(String[] args) {
 
         int num = 30;
@@ -27,3 +30,4 @@ public class Task3 {
    and for numbers which are a multiple of 5, print "RA" instead of the number.
    for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
     */
+

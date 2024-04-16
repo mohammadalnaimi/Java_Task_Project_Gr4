@@ -2,6 +2,9 @@ package aisulu.week01;
 
 public class Task1 {
 
+}
+
+
     public static void main(String[] args) {
 
         oddOrEven(5);
@@ -23,3 +26,4 @@ public class Task1 {
       Ex: identify(5) -->"Odd"
       identify (6) --> "Even"
      */
+

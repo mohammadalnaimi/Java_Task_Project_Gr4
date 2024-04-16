@@ -2,6 +2,9 @@ package aisulu.week01;
 
 public class Task2 {
 
+}
+
+
     public static void main(String[] args) {
 
         divide(10,5);
@@ -22,3 +25,4 @@ public class Task2 {
     QUESTION 2- Numbers without / operator
     Write a method that can divide two numbers without using division operator
      */
+
