@@ -66,5 +66,34 @@ public class W5_FindUnique {
 //    }
 
 
+public class W5_FindUnique {
+    public static void main(String[] args) {
+
+
+        String letters ="AAABBBCCCDEF";
+        System.out.println(unigueChar(letters));
+    }
+
+    public static String unigueChar(String letters){
+
+        String uniqe ="";
+        for (int i = 0; i < letters.length(); i++) {
+            int index = 0;
+            char count = letters.charAt(i);
+            for (int j = 0; j < letters.length(); j++) {
+                if (letters.charAt(j)  == count){
+                    index++;
+
+                }
+            }
+
+            if (index == 1){
+                uniqe += count;
+            }
+
+        }
+        return uniqe;
+
+    }
 
 }
